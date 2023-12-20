@@ -1,0 +1,38 @@
+/* Write your code here. */
+body {
+  margin: 0px;
+}
+.bgg {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: Roboto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vh;
+  height: 100vh;
+  margin: 0px;
+}
+.imgg {
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+}
+h1 {
+  font-size: 20px;
+}
+
+@media (min-width: 577px) {
+  .bgg {
+    width: 80vh;
+  }
+  .imgg {
+    height: 200px;
+    width: 200px;
+    margin: 0px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
